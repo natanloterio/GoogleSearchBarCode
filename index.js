@@ -4,7 +4,7 @@ const robot = {
 
 const express = require('express')
 const app = express()
-const port = 80
+const port = 3000
 
 app.get('/', (req,res) => res.send('wow'))
 app.get('/:b', (req, res) => barcodeToName(req,res) )
@@ -21,5 +21,8 @@ async function barcodeToName(req, res) {
     res.send(result)
 }
 
-
-app.listen(port, () =>console.log(`Running on ${port}`))
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, err => {
+    if(err) throw err;
+    console.log("%c Server running", "color: green");
+});
