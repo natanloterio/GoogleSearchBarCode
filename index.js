@@ -6,6 +6,7 @@ const express = require('express')
 const app = express()
 const port = 80
 
+app.get('/', (req,res) => res.send('wow'))
 app.get('/:b', (req, res) => barcodeToName(req,res) )
 
 async function start() {
