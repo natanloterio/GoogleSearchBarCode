@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "busca-barcode",
+  "private_key_id": "8e38e83d0a0ec7c240a77b64bc14aeb96ec781a1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuGVn5+nNTYnid\nsnCWdIc+jJS9SSbSGF43/OjFqRNZqDmi4bPHKLs0ZMcJPLH5XhE3iwJp2lmJtozt\ntj6cdlH8dwzxWyy8dixmI4xmZEgWJCsWlCyyfdUc7siOaD4xltw0/jHYk6dg2Hg8\n0Gem28GTH17PPKJ37ByfcnMMZ2RVSm0Oq7qIWKuhoVYawoWZlT+cc5cJkaIlFCGl\nbla6FB7oEwvnMPmYCBvHyWZ6Q3BvU6LjxP3oRxhyhd+eLT6W9Lwm2smAJSvhT7qU\n+a3k/6MRd3SDlc6WBg992kqA4zoI1PLjs6ojo/iaH4QK2OnjBDxJJ4zZGCze/8hL\nygqH+WG1AgMBAAECggEAKKA309JyqOmYlcv249ULXjg12TnBulL/YXc95in/HvPX\nhz+90OKbVK2TmH82VKdzww9IH+VY8X7Mwge98orVtOEe/w80kEHPOIJhF9+cxrXn\n7Bvllj0wxtCdskV3BeFbP251uUEzVLEO1boYBeLP+AHhAOD4VJ2fTEHLwQA7dH9H\nSd15a/vdyaux5me39HF7sxNsxw6J/TB2ShtqbQFt6Wc58FEOULtKLJ5MijDpX0lz\nylHShTJh0XAZO6X2pM9chuHeuqy+sxIN3iR+BVumsUJMr+Ylq3i4F4Z9zVq5Rb3E\ns7YX549sedAvTVMq46ImIE7e9VyCaxlu+dcYwNjsAQKBgQDvKdfjTgBQV2FaCDuw\nzQGkOopTfi+zXw5mqAJ1+BJFKy1qu1Sbvvo+bDsbkQVUlTmHygJyws/ch0B0lJUP\nzoTXONmmoKbqsmxv2AuF1ha53TpAoWcZ72SkmPhagfnwbiXR6dYE/J4LTyifk2kX\nQb+JyQtbzsPGSdSiXkHzSdDTAQKBgQC6Wu4RKAKnOp+tBqGTQrOCqlMx7R7KAECP\n+eTuMVhlZl4EApSxhDDJBTzzrCKc4M0AZ5bWwloKMD10neef2LmGyBlhvPfP28vS\n7cVKy6wHIti/rF38WnVdsvjIG4+RrXLXf15DNt7BZbyi7BIxsq1OvbIKb0uu2r28\nfypn1B4ytQKBgQCtCdBKhLATcPVdx6EwbVNnuHdGq4DlvbvUqHCHXAIUC4Zjt8Ai\no425RmOJsWZy6Tjjt1QIJk1wWGdZMfuboSdZ9Kb9OTUrkAaG8YB8yAZPWfIAuwa2\nrA9cS9U83tewjnFMrGwN1ZyfwBk7Q9OAYTCtB0nxlert95MiGyKKXPj7AQKBgFVF\nblHjYPNsW8wskJp1lvZfQZpCyifcXa6DxkFHyw76/GIRXECuIDSbdPx684udQbDB\ntb+nRtQKptRJvMbjwGDwBs02Tp6KEIX/zpse/yR0yYFLOeZS7gll73iBQ/yAxV/e\nJB/VZ7BPATX7l4euHqc9Hc6who0IAnHSLnE8GmVRAoGBAMzq1tQX5m8TcreM08Qz\n3dAI2AcVC0Abx9FGzvNW4jlnudsuSLwc81Fz01xurleipQ+FkDxU0BTb0861ST71\nBPU9NYz69UiKyjHERr4a1lHUMbGENFwxiw14rGORRjL5yZTe641FWgaqrtQb/Mum\nvvlq+O8A6KPSgiYfk1Li+Sfi\n-----END PRIVATE KEY-----\n",
+  "client_email": "buscabarcode@busca-barcode.iam.gserviceaccount.com",
+  "client_id": "117532111992466118446",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/buscabarcode%40busca-barcode.iam.gserviceaccount.com"
+}
