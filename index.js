@@ -4,7 +4,7 @@ const robot = {
 
 const express = require('express')
 const app = express()
-const port = 8080
+const port = 80
 
 app.get('/:b', (req, res) => barcodeToName(req,res) )
 
