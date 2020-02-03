@@ -11,9 +11,10 @@ async function fetchGoogleSearchAndReturnProductInfo(query) {
         q: query,
         num: 1
       })
-    
+      console.log(response);
       const produtcInfo = {
           title: response.data.items[0].title,
+          image: response.data.items[0].pagemap.cse_image[0].src,
       }
 
       return produtcInfo;
