@@ -20,7 +20,6 @@ async function fetchGoogleSearchAndReturnProductInfo(query) {
       return produtcInfo;
 }
 
-
 async function robot(barCode) {
     return fetchGoogleSearchAndReturnProductInfo(barCode)
 }
