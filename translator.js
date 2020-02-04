@@ -1,6 +1,5 @@
 const google = require('googleapis').google
 const customSearch = google.customsearch('v1')
-const googleSearchCredentials = require('./google-cs-credentials')
 
 async function fetchGoogleSearchAndReturnProductInfo(query) {
     const response = await customSearch.cse.list({
