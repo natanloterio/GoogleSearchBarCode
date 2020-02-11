@@ -1,5 +1,6 @@
 const robot = {
     translateBarcodeToName: require('./translator'),
+    amazon: require('./amazon'),
 }
 
 const express = require('express')
@@ -18,6 +19,8 @@ async function barcodeToName(req, res) {
     const barCode = req.params.b
     console.log(`Fetching up barcode: ${barCode}`)
     const result = await robot.translateBarcodeToName(barCode)
+    result.ratings = await robot.amazon(barCode);
+    
     res.send(result)
 }
 
