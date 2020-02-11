@@ -1,6 +1,18 @@
 const axios = require('axios');
-const URL = 'https://amazon-crawler-cci.herokuapp.com/amazon/';
+const address = 'https://amazon-crawler-cci.herokuapp.com/amazon/';
 
-module.exports = async function(barCode) {
-    return axios.get(URL+barCode);
+async function amazon(barCode) {
+    try{
+        var URL = address + barCode
+        console.log(URL)
+        var retorno = await axios.get(URL);
+        console.log(retorno.data)
+        return retorno.data.ratings
+
+    } catch (error) {
+        console.error(error)
+        return null
+    }
 }
+
+module.exports = amazon
