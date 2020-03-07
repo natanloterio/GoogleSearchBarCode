@@ -20,19 +20,26 @@ async function barcodeToName(req, res) {
     console.log(`Fetching up barcode: ${barCode}`)
     var result = {}
     try {
-        result = await robot.translateBarcodeToName(barCode)
+        var searchResult = await robot.translateBarcodeToName(barCode)
+        if(searchResult){
+            result = searchResult;
+        }else{
+            res.status(404).send({})
+            return
+        }
+
     } catch (error) {
         console.log(error)
     }
     
     try {
         result.rating = await robot.amazon(barCode);    
+        result.id = await robot.firebas
     } catch (error) {
-        
-        console.log('deu pau')
+        console.log('Amazon not responding')
     }
     
-    
+    console.log(result)
     res.send(result)
 }
 

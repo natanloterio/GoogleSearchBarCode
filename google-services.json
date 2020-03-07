@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "863647438105",
+    "firebase_url": "https://cci-review.firebaseio.com",
+    "project_id": "cci-review",
+    "storage_bucket": "cci-review.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863647438105:android:8c0dcea7c58d543326e188",
+        "android_client_info": {
+          "package_name": "com.example.clean_architecture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863647438105-6fcsn9vgoa46fqjffcjo2d1o9kr0uqe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfIw187b5Qy5bOzX0gW7CHU6EgvVfh3Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863647438105-6fcsn9vgoa46fqjffcjo2d1o9kr0uqe1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
