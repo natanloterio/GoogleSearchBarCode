@@ -5,8 +5,6 @@ async function fetchGoogleSearchAndReturnProductInfo(query) {
     const response = await customSearch.cse.list({
         auth: 'AIzaSyAg53eEWwIpJQt1cggbBMK5ItvSvg0F3H0',
         cx: '017908135223823607288:o5chdmqmxbb',
-        //q: '7891098040688',
-        //q: '7804630540041',
         q: query,
         num: 1
       })
